@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(./Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../Fonts/WakandaForever-Regular.ttf);
+}
+
+.fontImg {
+    background-image: url(../Illustrations/AllPages/arrière_plan.png);
+}
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    color: white;
+}
+
+nav .active {
+    color: #9E91B7;
+}

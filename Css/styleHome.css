@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../Fonts/WakandaForever-Regular.ttf);
+}
+
+.fontImg {
+    background-image: url(../Illustrations/AllPages/arrière_plan.png);
+}
+
+.ReseauSocio {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    position: fixed;
+    gap: 5px;
+    padding: 0 3px;
+    border-left: 3px solid #9E91B7;
+    border-right: 3px solid #9E91B7;
+    margin-left: 5%;
+    padding-top: 22%;
+}
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+}
+
+nav .active {
+    color: #9E91B7;
+}
+
+.ContenuPremierePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.premierPage {
+    width: 30%;
+    display: flex;
+    gap: 100%;
+    flex-direction: column;
+}
+
+.premierPage *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.ImgPremierPage {
+    width: 70%;
+}
+
+.ImgPremierPage img {
+    width: 100%;
+}
+
+.premierPage h1 {
+    font-family: 'Panthera';
+    color: #9E91B7;
+    font-size: 2.8rem;
+}
+
+.premierPage h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+}
+
+.premierPage p,
+a {
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.9rem;
+}
+
+.rangementImg {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+
+.imgEtText {
+    display: flex;
+    flex-direction: row;
+    background-color: #021740;
+    padding-left: 3%;
+    width: 40%;
+}
+
+.imgEtText img:hover {
+    transform: scale(1.1);
+}
+
+.immage {
+    width: 40%;
+}
+
+.immage img {
+    width: 100%;
+}
+
+.texte {
+    width: 60%;
+}
