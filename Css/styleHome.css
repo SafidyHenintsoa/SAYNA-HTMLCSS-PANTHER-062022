@@ -62,10 +62,17 @@
 
 nav a {
     font-family: 'BEYNO';
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
 }
 
 nav .active {
     color: #9E91B7;
+    text-decoration: underline;
 }
 
 .ContenuPremierePage {
@@ -343,6 +350,11 @@ a {
     border-radius: 38px;
     background-color: #F2CEF2;
     margin-top: 30px;
+    border: none;
+}
+
+.backgroundContact button:hover {
+    filter: drop-shadow(0 0 20px #021740);
 }
 
 

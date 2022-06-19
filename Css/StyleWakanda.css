@@ -36,6 +36,10 @@
     align-items: center;
 }
 
+.PageMenu div img:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(19%) saturate(431%) hue-rotate(219deg) brightness(95%) contrast(88%);
+}
+
 .MenuNAve {
     display: flex;
     flex-direction: row;
@@ -46,10 +50,17 @@
 nav a {
     font-family: 'BEYNO';
     color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
 }
 
 nav .active {
     color: #9E91B7;
+    text-decoration: underline;
 }
 
 
@@ -96,10 +107,6 @@ nav .active {
 /* style section 2 */
 
 .backgrondSection2 {
-    /* background-image: url(../Illustrations/Wakanda/Pantherwakanda2.png);
-    background-size: 90%;
-    background-position: top center;
-    background-repeat: no-repeat; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-direction: row;
@@ -152,4 +159,67 @@ nav .active {
     height: auto;
     margin-top: 3rem;
     margin-bottom: 2rem;
+}
+
+
+/* style footer */
+
+footer {
+    background-image: url(../Illustrations/AllPages/back_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+
+.cercleMaravel {
+    background-image: url(../Illustrations/AllPages/footer1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+.cercleMaravel img {
+    padding: 50% 60% 55% 25%;
+}
+
+.cercleMaravel:hover {
+    transform: scale(1.1);
+}
+
+.rangementFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.rangementFooter #enColone {
+    display: flex;
+    flex-direction: column;
+}
+
+#enColone a {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.rangementFooter #enLigne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rangementFooter h2 {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    margin-bottom: 3rem;
+}
+
+.footerRetrover p {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    font-size: 0.8;
 }
